@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ceaed6488.js" crossorigin="anonymous"></script>
+    <title>One Piece Showdown!</title>
+</head>
+<body>
+    <h1>One Piece Selector</h1>
+
+    <main class="game-screen">
+        <!--Current BG-->
+        <img class="background" src="background2.gif" alt="battle-background">
+        <!--End of Current BG-->
+
+        <!--Char and BG Selection-->
+        <div class="char-selector">
+            <div class="roulette item-0" data-roulette>
+            <!--BG Choices-->
+            <ul class="roulette-list">
+                <li class="visible">
+                    <img src="background1.gif" alt="battle-background1">
+                </li>
+                <li>
+                    <img src="background3.gif" alt="battle-background3">
+                </li>
+                <li>
+                    <img src="background4.gif" alt="battle-background4">
+                </li>
+            </ul>
+            <h3 class="arena-title">Choose Location</h3>
+            </div>
+            <!--End of BG Selection-->
+
+
+            <!--BG Slide Buttons-->
+            <i class="fa-solid fa-caret-left prev"></i><i class="fa-solid fa-caret-right next"></i>
+            <!--BG Slide Buttons-->
+
+
+            <!--Char Portraits-->
+            <img class="sprite-portrait item-1" src="zoro1.png">
+            <img class="sprite-portrait item-2 active-portrait" src="luffy1.png">
+            <img class="sprite-portrait item-3" src="ace1.png">
+            <img class="sprite-portrait item-4" src="shanks1.png">
+            <!--Char Portraits-->
+        </div>
+        <!--End of Char and BG Selection-->
+
+        <h2 class="player-1-title">Player 1</h2>
+        <h2 class="player-2-title">CPU</h2>
+        <h2 class="versus-title">VS</h2>
+
+        <!--Playable Sprite-->
+        <img class="char-fight zoro" src="zoro-fight.gif">
+        <img class="char-fight luffy active-fight" src="luffy-fight.gif">
+        <img class="char-fight ace" src="ace-fight.gif">
+        <img class="char-fight shanks" src="shanks-fight.gif">
+        
+        <div class="doflamingo">
+            <img src="doflamingo-fight.gif">
+        </div>
+        <!--Playable Sprite-->
+    </main>
+
+    <h2 class="credits"><a href="https://twitter.com/shadesofaziah" target="_blank"><i class="fa-brands fa-twitter"></i>@ShadesofAziah</a></h2>
+    
+    <script src="script.js"></script>
+</body>
+</html>
