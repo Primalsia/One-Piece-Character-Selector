@@ -1,6 +1,6 @@
 //Note: The list of character portraits need to be in the same order list as they appear in the HTML otherwise it will mess up the order list and the incorrect sprite will appear when clicked.
 
-const spriteFighters = document.querySelectorAll('.char-fight'); //Grabs ALL of the sprite images of the characters (e.g, Naruto, Sasuke, Itachi, etc.)
+const spriteFighters = document.querySelectorAll('.char-fight'); //Grabs ALL of the sprite images of the characters (e.g, Luffy, Zoro, etc.)
 
 const spritePortraits = document.querySelectorAll('.sprite-portrait'); //Grabs the Portraits of all character's in the player selector box.
 
