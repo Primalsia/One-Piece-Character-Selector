@@ -33,5 +33,5 @@
 <h2 align="left">Other Projects:</h2>
 
 **Got Cocktail?:** <a href="https://github.com/Primalsia/GotCocktail.github.io">Got Cocktail? Repo</a><br>
-**Pacific Trails Resort:** <a href="https://github.com/Primalsia/One-Piece-Character-Selector">Pacific Trails Resort Repo</a><br>
+**Pacific Trails Resort:** <a href="https://github.com/Primalsia/ptresort.github.io">Pacific Trails Resort Repo</a><br>
 **Portfolio:** <a href="https://github.com/Primalsia/PortfolioWeb2022">Portfolio Repo</a>
